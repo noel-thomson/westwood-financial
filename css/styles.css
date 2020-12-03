@@ -62,11 +62,11 @@
   #slider .slide.current {
     opacity: 1; }
   #slider .slide:first-child {
-    background: url("../../imgs/1.1.jpg") no-repeat center center/cover; }
+    background: url("../imgs/1.1.jpg") no-repeat center center/cover; }
   #slider .slide:nth-child(2) {
-    background: url("../../imgs/1.4.jpg") no-repeat center center/cover; }
+    background: url("../imgs/1.4.jpg") no-repeat center center/cover; }
   #slider .slide:nth-child(3) {
-    background: url("../../imgs/3.3man-with-briefcase.jpg") no-repeat center center/cover; }
+    background: url("../imgs/3.3man-with-briefcase.jpg") no-repeat center center/cover; }
 
 #about .about-description {
   color: white;
