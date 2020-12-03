@@ -1,0 +1,26 @@
+.mobile-nav {
+  height: max-content;
+  transition: all 0.5s ease-in-out;
+  width: 400px;
+  margin: 0 auto;
+  top: 100px;
+  ul li {
+    text-align: center;
+  }
+}
+@media (max-width: 1000px) {
+  #header {
+    .logo {
+      .logo-text {
+        font-size: 14px;
+      }
+      .logo-img {
+        max-height: 40px;
+        top: 0;
+      }
+    }
+  }
+  #slider {
+    padding-top: 70px;
+  }
+}

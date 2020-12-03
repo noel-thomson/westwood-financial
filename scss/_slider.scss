@@ -1,0 +1,149 @@
+// @media (max-width: 768px) {
+//   #hero {
+//     text-align: center;
+//     padding-top: 58px;
+//   }
+//   #hero h1 {
+//     font-size: 28px;
+//   }
+//   #hero h2 {
+//     font-size: 18px;
+//     line-height: 24px;
+//   }
+// }
+
+// @media (max-height: 500px) {
+//   #hero {
+//     height: 120vh;
+//   }
+// }
+
+#slider {
+  padding-top: 70px;
+
+  .slider {
+    position: relative;
+    overflow: hidden;
+    height: 100vh;
+    .slide {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      opacity: 0;
+      transition: opacity 0.5s ease-in-out;
+      &:before {
+        content: '';
+        background: rgba(0, 0, 0, 0.4);
+        position: absolute;
+        bottom: 0;
+        top: 0;
+        left: 0;
+        right: 0;
+      }
+      .slide-content {
+        position: absolute;
+        height: 200px;
+        top: 45%;
+        left: 50px;
+        h1 {
+          margin: 0;
+          font-size: 48px;
+          font-weight: 700;
+          color: #fff;
+        }
+
+        h2 {
+          color: #fff;
+          margin: 10px 0 0 0;
+          font-size: 24px;
+        }
+
+        .btn-get-started {
+          font-family: 'Raleway', sans-serif;
+          font-weight: 500;
+          font-size: 16px;
+          letter-spacing: 1px;
+          display: inline-block;
+          padding: 10px 30px;
+          // border-radius: 4px;
+          border-radius: 7px;
+          transition: 0.5s;
+          margin-top: 30px;
+          color: #fff;
+          background: #e03a3c;
+          // border: 2px solid #e03a3c;
+        }
+
+        // .btn-get-started:hover {
+        //   background: transparent;
+        //   border-color: #fff;
+        // }
+      }
+    }
+  }
+
+  .slide.current {
+    opacity: 1;
+  }
+
+  .slide:first-child {
+    background: url('../imgs/1.1.jpg') no-repeat center center / cover;
+  }
+  .slide:nth-child(2) {
+    background: url('../imgs/1.4.jpg') no-repeat center center / cover;
+  }
+  .slide:nth-child(3) {
+    background: url('../imgs/3.3man-with-briefcase.jpg') no-repeat center center /
+      cover;
+  }
+
+  // .slide.current .content {
+  //   opacity: 1;
+  //   transform: translateX(600px);
+  //   transition: all 0.5s ease-in-out 0.3s;
+  // }
+
+  // .slide .content {
+  //   position: absolute;
+  //   bottom: 70px;
+  //   left: -600px;
+  //   width: 600px;
+  //   opacity: 0;
+  //   background-color: rgba(255, 255, 255, 0.8);
+  //   color: #333;
+  //   padding: 1em;
+  // }
+
+  // .controls #prev,
+  // .controls #next {
+  //   position: absolute;
+  //   top: 25%;
+  //   transform: translateY(-50%);
+  //   z-index: 99;
+  //   background: transparent;
+  //   border: none;
+  // }
+  // .controls #prev,
+  // .controls #next:focus {
+  //   outline: none;
+  // }
+  // .controls #prev {
+  //   left: 0.75em;
+  // }
+  // .controls #next {
+  //   right: 0.75em;
+  // }
+
+  // @media (max-width: 600px) {
+  //   .slide .content {
+  //     bottom: -300px;
+  //     left: 0;
+  //     width: 100%;
+  //   }
+  //   .slide.current .content {
+  //     transform: translateY(-300px);
+  //   }
+  // }
+}
