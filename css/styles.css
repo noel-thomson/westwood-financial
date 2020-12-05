@@ -1,3 +1,9 @@
+.section-bg:before {
+  transform: none;
+  top: 0;
+  bottom: 0;
+  background-color: rgba(27, 27, 27, 0.98); }
+
 #header .logo {
   color: black;
   font-size: 20px; }
@@ -72,6 +78,24 @@
   color: white;
   opacity: 0.7; }
 
+#pricing {
+  color: #444; }
+  #pricing::before {
+    display: none; }
+  #pricing .container .row .box {
+    color: white; }
+
+#footer .logo {
+  color: white;
+  font-size: 20px; }
+  #footer .logo .logo-img {
+    max-height: 25px;
+    position: relative;
+    top: -2px;
+    margin-right: 4px; }
+  #footer .logo .logo-text span {
+    color: #e03a3c; }
+
 .mobile-nav {
   height: -webkit-max-content;
   height: -moz-max-content;
@@ -91,3 +115,51 @@
     top: 0; }
   #slider {
     padding-top: 70px; } }
+
+@media (max-width: 767px) {
+  #slider {
+    padding-top: 70px; }
+    #slider .slider {
+      height: 100vh; }
+      #slider .slider .slide .slide-content {
+        position: absolute;
+        height: 200px;
+        top: 45%;
+        left: 50px; }
+        #slider .slider .slide .slide-content h1 {
+          margin: 0;
+          font-size: 36px; }
+        #slider .slider .slide .slide-content h2 {
+          margin: 10px 0 0 0;
+          font-size: 20px; }
+        #slider .slider .slide .slide-content .btn-get-started {
+          font-size: 16px;
+          letter-spacing: 1px;
+          padding: 10px 30px;
+          margin-top: 30px; } }
+
+@media (max-width: 575px) {
+  #header .logo .logo-text {
+    display: none; }
+  #slider {
+    padding-top: 70px; }
+    #slider .slider {
+      height: 70vh; }
+      #slider .slider .slide .slide-content {
+        position: absolute;
+        height: 200px;
+        top: 40%;
+        left: 50%;
+        width: 80vw;
+        transform: translate(-50%, 0); }
+        #slider .slider .slide .slide-content h1 {
+          margin: 0;
+          font-size: 28px; }
+        #slider .slider .slide .slide-content h2 {
+          margin: 10px 0 0 0;
+          font-size: 18px; }
+        #slider .slider .slide .slide-content .btn-get-started {
+          font-size: 14px;
+          letter-spacing: 1px;
+          padding: 7px 20px;
+          margin-top: 30px; } }

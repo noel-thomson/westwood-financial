@@ -1,0 +1,9 @@
+#pricing {
+  color: #444;
+  &::before {
+    display: none;
+  }
+  .container .row .box {
+    color: white;
+  }
+}
