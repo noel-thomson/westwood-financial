@@ -22,7 +22,7 @@
   #slider .slider {
     position: relative;
     overflow: hidden;
-    height: 100vh; }
+    height: calc(100vh - 70px); }
     #slider .slider .slide {
       position: absolute;
       top: 0;
@@ -43,7 +43,8 @@
         position: absolute;
         height: 200px;
         top: 45%;
-        left: 50px; }
+        left: 50px;
+        margin-right: 20px; }
         #slider .slider .slide .slide-content h1 {
           margin: 0;
           font-size: 48px;
@@ -74,9 +75,11 @@
   #slider .slide:nth-child(3) {
     background: url("../imgs/3.jpg") no-repeat center center/cover; }
 
-#about .about-description {
-  color: white;
-  opacity: 0.7; }
+#about {
+  padding: 60px 0 100px; }
+  #about .about-description {
+    color: white;
+    opacity: 0.7; }
 
 #pricing {
   color: #444; }
@@ -101,8 +104,9 @@
   height: -moz-max-content;
   height: max-content;
   transition: all 0.5s ease-in-out;
-  width: 400px;
-  margin: 0 auto;
+  width: 300px;
+  left: 50%;
+  transform: translateX(-50%);
   top: 100px; }
   .mobile-nav ul li {
     text-align: center; }
@@ -119,24 +123,22 @@
 @media (max-width: 767px) {
   #slider {
     padding-top: 70px; }
-    #slider .slider {
-      height: 100vh; }
-      #slider .slider .slide .slide-content {
-        position: absolute;
-        height: 200px;
-        top: 45%;
-        left: 50px; }
-        #slider .slider .slide .slide-content h1 {
-          margin: 0;
-          font-size: 36px; }
-        #slider .slider .slide .slide-content h2 {
-          margin: 10px 0 0 0;
-          font-size: 20px; }
-        #slider .slider .slide .slide-content .btn-get-started {
-          font-size: 16px;
-          letter-spacing: 1px;
-          padding: 10px 30px;
-          margin-top: 30px; } }
+    #slider .slider .slide .slide-content {
+      position: absolute;
+      height: 200px;
+      top: 45%;
+      left: 50px; }
+      #slider .slider .slide .slide-content h1 {
+        margin: 0;
+        font-size: 36px; }
+      #slider .slider .slide .slide-content h2 {
+        margin: 10px 0 0 0;
+        font-size: 20px; }
+      #slider .slider .slide .slide-content .btn-get-started {
+        font-size: 16px;
+        letter-spacing: 1px;
+        padding: 10px 30px;
+        margin-top: 30px; } }
 
 @media (max-width: 575px) {
   #header .logo .logo-text {
@@ -153,11 +155,9 @@
         width: 80vw;
         transform: translate(-50%, 0); }
         #slider .slider .slide .slide-content h1 {
-          margin: 0;
-          font-size: 28px; }
+          margin: 0; }
         #slider .slider .slide .slide-content h2 {
-          margin: 10px 0 0 0;
-          font-size: 18px; }
+          margin: 10px 0 0 0; }
         #slider .slider .slide .slide-content .btn-get-started {
           font-size: 14px;
           letter-spacing: 1px;

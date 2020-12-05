@@ -1,8 +1,9 @@
 .mobile-nav {
   height: max-content;
   transition: all 0.5s ease-in-out;
-  width: 400px;
-  margin: 0 auto;
+  width: 300px;
+  left: 50%;
+  transform: translateX(-50%);
   top: 100px;
   ul li {
     text-align: center;
@@ -28,7 +29,7 @@
   #slider {
     padding-top: 70px;
     .slider {
-      height: 100vh;
+      // height: 80vh;
       .slide {
         .slide-content {
           position: absolute;
@@ -79,12 +80,12 @@
           transform: translate(-50%, 0);
           h1 {
             margin: 0;
-            font-size: 28px; //
+            // font-size: 28px; //
           }
 
           h2 {
             margin: 10px 0 0 0;
-            font-size: 18px; //
+            // font-size: 18px; //
           }
 
           .btn-get-started {
