@@ -4,6 +4,23 @@
     display: none;
   }
   .container .row .box {
+    position: relative;
     color: white;
+    height: 442px;
+    img {
+      height: 60px;
+    }
+    ul {
+      margin-top: 20px;
+    }
+    .btn-wrap {
+      position: absolute;
+      bottom: 20px;
+      left: 50%;
+      transform: translate(-50%, 0);
+      .btn-buy {
+        padding: 10px 30px 12px 30px;
+      }
+    }
   }
 }
