@@ -1,3 +1,8 @@
+html,
+body {
+  overscroll-behavior: none;
+}
+
 .section-bg:before {
   transform: none;
   top: 0;

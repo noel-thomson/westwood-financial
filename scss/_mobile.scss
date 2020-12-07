@@ -1,101 +1,33 @@
-.mobile-nav {
-  height: max-content;
-  transition: all 0.5s ease-in-out;
-  width: 300px;
-  left: 50%;
-  transform: translateX(-50%);
-  top: 100px;
-  ul li {
-    text-align: center;
-  }
-}
-@media (max-width: 1000px) {
-  #header {
-    .logo {
-      .logo-text {
-        font-size: 14px;
-      }
-      .logo-img {
-        max-height: 40px;
-        top: 0;
-      }
-    }
-  }
-  #slider {
-    padding-top: 70px;
-  }
-}
-@media (max-width: 767px) {
-  #slider {
-    padding-top: 70px;
-    .slider {
-      // height: 80vh;
-      .slide {
-        .slide-content {
-          position: absolute;
-          height: 200px;
-          top: 45%;
-          left: 50px;
-          h1 {
-            margin: 0;
-            font-size: 36px; //
-          }
-
-          h2 {
-            margin: 10px 0 0 0;
-            font-size: 20px; //
-          }
-
-          .btn-get-started {
-            font-size: 16px;
-            letter-spacing: 1px;
-            padding: 10px 30px;
-            margin-top: 30px;
-          }
-        }
-      }
-    }
-  }
-}
-@media (max-width: 575px) {
-  #header {
-    .logo {
-      .logo-text {
-        display: none;
-      }
-    }
-  }
-  #slider {
-    padding-top: 70px;
-    .slider {
-      height: 70vh;
-      .slide {
-        .slide-content {
-          position: absolute;
-          height: 200px;
-          top: 40%;
-          left: 50%;
-          width: 80vw;
-          // padding: 20px;
-          transform: translate(-50%, 0);
-          h1 {
-            margin: 0;
-            // font-size: 28px; //
-          }
-
-          h2 {
-            margin: 10px 0 0 0;
-            // font-size: 18px; //
-          }
-
-          .btn-get-started {
-            font-size: 14px;
-            letter-spacing: 1px;
-            padding: 7px 20px;
-            margin-top: 30px;
-          }
-        }
-      }
-    }
-  }
-}
+// .mobile-nav {
+//   height: max-content;
+//   transition: all 0.5s ease-in-out;
+//   width: 300px;
+//   left: 50%;
+//   transform: translateX(-50%);
+//   top: 100px;
+//   ul li {
+//     text-align: center;
+//   }
+// }
+// @media (max-width: 1000px) {
+//   #header {
+//     .logo {
+//       .logo-text {
+//         font-size: 14px;
+//       }
+//       .logo-img {
+//         max-height: 40px;
+//         top: 0;
+//       }
+//     }
+//   }
+// }
+// @media (max-width: 575px) {
+//   #header {
+//     .logo {
+//       .logo-text {
+//         display: none;
+//       }
+//     }
+//   }
+// }

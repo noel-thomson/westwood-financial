@@ -48,3 +48,10 @@
     }
   }
 }
+@media (max-width: 575px) {
+  #team {
+    .col-lg-9.col-md-6 {
+      font-size: 18px;
+    }
+  }
+}
