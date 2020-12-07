@@ -175,6 +175,8 @@ body {
     height: 442px; }
     #pricing .container .row .box img {
       height: 60px; }
+    #pricing .container .row .box .shop {
+      height: 50px; }
     #pricing .container .row .box ul {
       margin-top: 20px;
       font-size: 15px;
