@@ -12,6 +12,8 @@
     }
     ul {
       margin-top: 20px;
+      font-size: 15px;
+      color: rgba(255, 255, 255, 0.9);
     }
     .btn-wrap {
       position: absolute;
@@ -20,6 +22,35 @@
       transform: translate(-50%, 0);
       .btn-buy {
         padding: 10px 30px 12px 30px;
+      }
+    }
+  }
+}
+
+@media (max-width: 1199px) {
+  #pricing {
+    .container .row .box {
+      height: 520px;
+      // min-width: 300px !important; //
+      .btn-wrap {
+        .btn-buy {
+          width: 200px;
+        }
+      }
+    }
+  }
+}
+@media (max-width: 991px) {
+  #pricing {
+    .container .row .box {
+      height: 520px;
+      max-width: 400px !important; //
+      margin-left: auto !important;
+      margin-right: auto !important;
+      .btn-wrap {
+        .btn-buy {
+          width: 200px;
+        }
       }
     }
   }
